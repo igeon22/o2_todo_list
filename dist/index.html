@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Output Management</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+  <body>
+    <header>
+      <h1 class="logo">Todo>></h1>
+    </header>
+
+    <div class="main">
+      <div class="sidebar">
+        <button class="side-btn state">X</button>
+        <button class="side-btn home">Home</button>
+        
+        
+        <!-- <button class="side-btn add">Add Project</button> -->
+        <form action="" class="add-form">
+          <h3>Add a New Project</h3>
+          <input type="text"  id="project-title"  autocomplete="off"  maxlength="100" required>
+          <button id="submit-project-title" type="submit">Add</button>
+  
+        </form>
+        <h2>Projects</h2>
+        <div class="all-projects">
+          <!-- <button class="side-btn">MyPro</button> -->
+          <!-- <button class="side-btn">Myteam</button>
+          <button class="side-btn">Thaoud</button> -->
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="h-cont">
+          <div class="side-btn-sh">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <h2 id="main-title">Title Of Project</h2>
+          <button class="side-btn add a-ts" id="add-task">Add a Task</button>
+        </div>
+
+        <h3>Tasks</h3>
+        <div class="all-tasks">
+          <div class="task-block">
+            <p class="text">Keep the faith!!!</p>
+            <p class="date">29-9-2023</p>
+            <input type="checkbox"  name="complete" class="complete-mark" id="">
+            <button class="delete">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="new-task hd" id="task-form">
+      <form action="" class="add-task-cont">
+        <div class="close">
+          <div class="closeform">X</div>
+        </div>
+        <label for="task-txt">Name</label>
+        <input id="task-txt" type="text" autocomplete="off" required>
+
+        <label for="task-date">Date</label>
+        <input id="task-date" type="date" required >
+
+        <select name="project" id="project-name" required>
+          <option value="Home" >Home</option>
+          <!-- <option value="Workout">Workout</option>
+          <option value="Tasks">Feels</option> -->
+        </select>
+
+        <button class="add-t-s" type="submit">Add</button>
+      </form>
+    </div>
+
+
+  </body>
+</html>
