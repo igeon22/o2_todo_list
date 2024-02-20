@@ -12,11 +12,7 @@
     font-family: 'Roboto';
     src: url('./fonts/Roboto-Regular.ttf');
 }
-.hello{
-    color: red;
-    /* background-image: url('./profile.jpg'); */
-    font-family: 'Playfair';
-}
+
 
 body{
     margin: 0;
@@ -63,7 +59,6 @@ h3{
 }
 
 .side-btn{
-    /* background-color: #e2e8f0; */
     font-family: "Roboto";
     font-weight: 400;
     border: 0;
@@ -72,12 +67,10 @@ h3{
     padding: 5px 0;
     border-radius: 5px;
     transition: 0.33s all  ease;
-    /* transition-property: all; */
 }
 
 .side-btn:hover{
     background-color: #e4e4e7;
-    /* color: white; */
 }
 
 .side-btn:focus{
@@ -133,7 +126,6 @@ h3{
 .h-cont{
     display: grid;
     grid-auto-flow: row;
-    /* background-color: red; */
 }
 
 
@@ -141,7 +133,6 @@ h3{
 .state{
 
     visibility: hidden;
-    /* display: none; */
     width: 35px;
     height:35px;
     box-sizing: border-box;
@@ -187,7 +178,6 @@ h3{
 }
 
 .delete{
-    /* font-family: "Roboto"; */
     border: 0;
     color: white;
     font-size: 1em;
@@ -209,7 +199,6 @@ h3{
 
 .marked{
     text-decoration: line-through;
-    /* opacity: 0.8; */
     color: #75757c;
 }
 
@@ -226,8 +215,6 @@ h3{
 }
 
 dialog{
-    /* width: 100%;
-    height: 100vh; */
     background-color: transparent;
     backdrop-filter: blur(1px);
     position: fixed;
@@ -235,7 +222,6 @@ dialog{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* bottom: 50%; */
     border: 0;
 }
 
@@ -269,7 +255,6 @@ dialog{
     border: 0;
     font-size: 1.2rem;
     border-radius: 5px;
-    /* padding: 5px; */
 }
 
 .add-form button:hover{
@@ -309,7 +294,6 @@ form input:focus{
     background-color: black;
     color: white;
     margin-top: 30px;
-    /* font-size: 1em; */
     padding: 3px;
 }
 
@@ -337,7 +321,6 @@ form input:focus{
 }
 
 .hd{
-    /* display: none; */
     top: -100%;
 }
 
@@ -346,13 +329,11 @@ form input:focus{
         position:fixed;
         left: -100%;
         transition: 0.23s all ease-in;
-        /* top: 0%; */
         height: clamp(95vh,98vh,100vh);
     }
 
     .show{
         left: 0%;
-        /* right: 100%; */
     }
 
     .state{
